@@ -1,18 +1,13 @@
 ---
-swagger: "2.0"
+openapi: 3.0.0
 info:
-  description: "This is a sample server Petstore server.  You can find out more about\
-    \ Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).\
-    \  For this sample, you can use the api key `special-key` to test the authorization\
-    \ filters."
-  version: "1.0.5"
-  title: "Swagger Petstore"
-  termsOfService: "http://swagger.io/terms/"
+  description: "Document the HSP AWS Distrobution List API provided by wepro"
+  version: "1.0.0"
+  title: "DL Management"
   contact:
-    email: "apiteam@swagger.io"
+    email: "dl_HSP_OPS_Core_Infrastructure@philips.com"
   license:
-    name: "Apache 2.0"
-    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+    name: "MIT"
 host: "petstore.swagger.io"
 basePath: "/v2"
 tags:
